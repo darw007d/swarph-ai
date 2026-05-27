@@ -1,6 +1,8 @@
 // swarph.ai — scroll reveal. The ONLY script. No fetch, no backend.
 (() => {
   "use strict";
+  document.documentElement.classList.remove("no-js");
+  document.documentElement.classList.add("js");
   const reveals = document.querySelectorAll(".reveal");
   if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     reveals.forEach((el) => el.classList.add("in"));
