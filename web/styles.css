@@ -31,6 +31,8 @@ h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:1.02;font-weight:800;letter-sp
   color:var(--neon);text-shadow:0 0 36px rgba(57,255,139,.35)}
 .sub{max-width:680px;font-size:clamp(1.05rem,2.2vw,1.35rem);color:var(--ink);opacity:.92}
 .sub b{color:var(--neon);font-weight:600}
+.triad{margin-top:18px;color:var(--muted);font-size:1.0rem;letter-spacing:.02em}
+.triad b{color:var(--neon);font-weight:600}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
 .chip{border:1px solid rgba(125,255,155,.35);background:rgba(125,255,155,.06);
   color:var(--neon);border-radius:999px;padding:8px 16px;font-size:.85rem;text-decoration:none;
