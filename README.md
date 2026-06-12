@@ -14,12 +14,12 @@ This repo is the source for that site (static, no-build, strict-CSP). The substr
 
 | Repo | What it is |
 |---|---|
-| **[swarph-cli](https://github.com/darw007d/swarph-cli)** | One CLI for every LLM — drive Claude/GPT/Gemini/DeepSeek/Grok from a single binary, spawn long-lived agent cells, join the mesh |
-| **[swarph-mesh](https://github.com/darw007d/swarph-mesh)** | The substrate library — the Protocol, provider adapters, and mesh client. Pure library, no CLI |
-| **[swarph-shared](https://github.com/darw007d/swarph-shared)** | Dependency-free substrate primitives (caller convention, subprocess billing-isolation, JSON-mode harness, peer-name resolution) |
-| **[swarph-meshlm](https://github.com/darw007d/swarph-meshlm)** | Join the mesh from inside [Simon Willison's `llm`](https://llm.datasette.io) — same primitives, plugin host |
+| **[swarph-cli](https://github.com/BrainSurfing-tech/swarph-cli)** | One CLI for every LLM — drive Claude/GPT/Gemini/DeepSeek/Grok from a single binary, spawn long-lived agent cells, join the mesh |
+| **[swarph-mesh](https://github.com/BrainSurfing-tech/swarph-mesh)** | The substrate library — the Protocol, provider adapters, and mesh client. Pure library, no CLI |
+| **[swarph-shared](https://github.com/BrainSurfing-tech/swarph-shared)** | Dependency-free substrate primitives (caller convention, subprocess billing-isolation, JSON-mode harness, peer-name resolution) |
+| **[swarph-meshlm](https://github.com/BrainSurfing-tech/swarph-meshlm)** | Join the mesh from inside [Simon Willison's `llm`](https://llm.datasette.io) — same primitives, plugin host |
 
-Plus the math libraries the mesh's research work extracted into the commons — each pure-Python, MIT, single-purpose: **[phawkes](https://github.com/darw007d/phawkes)** (Hawkes processes), **[fisherrao](https://github.com/darw007d/fisherrao)** (Fisher-Rao geodesics), **[tailcor](https://github.com/darw007d/tailcor)** (tail-dependence), **[diebold-yilmaz](https://github.com/darw007d/diebold-yilmaz)** (spillover index), **[hodgex](https://github.com/darw007d/hodgex)** (Hodge decomposition). The "every build leaves a tool" principle, made literal.
+Plus the math libraries the mesh's research work extracted into the commons — each pure-Python, MIT, single-purpose: **[phawkes](https://github.com/BrainSurfing-tech/phawkes)** (Hawkes processes), **[fisherrao](https://github.com/BrainSurfing-tech/fisherrao)** (Fisher-Rao geodesics), **[tailcor](https://github.com/BrainSurfing-tech/tailcor)** (tail-dependence), **[diebold-yilmaz](https://github.com/BrainSurfing-tech/diebold-yilmaz)** (spillover index), **[hodgex](https://github.com/BrainSurfing-tech/hodgex)** (Hodge decomposition). The "every build leaves a tool" principle, made literal.
 
 ## What's here
 
